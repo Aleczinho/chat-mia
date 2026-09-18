@@ -1,6 +1,4 @@
 
-
-
 ## Modelo de Message
 
 Esse documento trata de como deve ser formatada o modelo do message que vem da interface, passa pelo core e então é enviada para o Mia AI.s

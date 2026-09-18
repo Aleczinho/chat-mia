@@ -10,11 +10,16 @@ Por conta disso, esse arquivo pode ser separado em duas etapas. Uma entre a inte
 
 Esse json deve incluir os seguintes fields:
 
+`String: message_id` Identifica a mensagem. Obrigatório. 
+
 `String: message` É o conteúdo da mensagem em si. Obrigatório. É o que o usuário digita.
 
-`String: conversation_id` É o id que identifica a conversa com o usuário. Obrigatório.
+`String: date` Data de envio da mensagem. ISO 8601
 
-`String: user_id` É o id que identifica o usuário. Obrigatório.
+`String: metadata` Metadata sobre a mensagem.
+
+`String: origin` Identifica a fonte da mensagem. Obrigatório.
+
 
 A interface deve esperar por códigos de HTTP dependendo no resultado da transferência.
 

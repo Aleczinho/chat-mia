@@ -1,4 +1,4 @@
-#  Fluxo de Versionamento
+# Fluxo de Versionamento
 
 ## Objetivo
 
@@ -74,3 +74,4 @@ Aprovação
 Merge → main
  ↓
 Versão estável
+```
